@@ -1,11 +1,16 @@
 import './App.css';
 import Header from './components/Header';
+import ToDoList from './components/ToDoList';
+import CreateToDo from './components/CreateToDo';
+import "antd/dist/antd.css";
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      우왕 투두 리스트를 예쁘게 만들어 보아요:)!
+      보람찬 하루를 만들어 보아요:)!
+      <CreateToDo/>
+      <ToDoList/>
     </div>
   );
 }
