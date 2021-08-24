@@ -1,15 +1,21 @@
 .App {
   text-align: center;
   font-family: "Cafe24SsurroundAir";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.create-to-do {
+  display: flex;
+  justify-content: center;
+}
 .header {
-  height: 10vh;
+  height: 80px;
   background-color: #61dafb;
   display: flex;
   justify-content: center;
@@ -27,4 +33,9 @@
     format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+.create-to-do {
+  margin-top: 25px;
+  margin-bottom: 50px;
 }

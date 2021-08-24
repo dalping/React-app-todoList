@@ -14,5 +14,31 @@ code {
 
 table {
   border-collapse: collapse;
-  width: 50%;
+  width: 70%;
+  background-color: #b7efff;
+}
+
+table td {
+  height: 40px;
+  border-bottom: 1px solid white;
+}
+
+table td:first-child {
+  text-align: center;
+}
+
+table td:nth-child(2) {
+  text-align: left;
+  width: 85%;
+}
+
+table td:nth-child(3) {
+  width: 5%;
+}
+
+table td button {
+  font-size: 20px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
 }
