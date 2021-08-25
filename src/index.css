@@ -42,3 +42,8 @@ table td button {
   border: 0;
   outline: 0;
 }
+
+.checked {
+  text-decoration: line-through;
+  color: rgb(175, 175, 175);
+}
