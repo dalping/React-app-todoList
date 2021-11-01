@@ -36,7 +36,7 @@ export default function CreateToDo({reload}){
     const doRef = useRef(null);
     
     return(
-        <form style={{width:'70%'}} >
+        <form style={{width:'70%'}}  onSubmit={onSubmit}>
             <div className="create-to-do">
                 <Input className="txt" onChange={handleChange} value={isTxt} style ={{width:'80%'}} placeholder="할 일을 입력하세요." ref={doRef} type="text"></Input>
                 <Button type="primary" onClick={onSubmit}>등록</Button>
